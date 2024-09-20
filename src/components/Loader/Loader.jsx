@@ -5,6 +5,7 @@ const Loader = () => (
     visible={true}
     height="96"
     width="96"
+    margin="20px auto"
     strokeColor="#465efa"
     strokeWidth="5"
     animationDuration="0.65"
