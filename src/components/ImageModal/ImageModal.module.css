@@ -16,7 +16,8 @@
 }
 
 .imageModal {
-
+width: auto;
+height: calc(100% - 100px);
 }
 p {
     color: black;
