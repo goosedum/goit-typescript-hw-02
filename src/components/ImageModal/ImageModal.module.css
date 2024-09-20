@@ -15,9 +15,5 @@
 
 .imageModal {
     max-width: 100%;
-    height: auto;
-}
-
-.text {
-    margin-top: 10px;
+    height: 100%;
 }
