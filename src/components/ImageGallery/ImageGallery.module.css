@@ -1,7 +1,9 @@
 .imageGallery {
+    justify-content: center;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     list-style: none;
     padding: 0;
+
 }

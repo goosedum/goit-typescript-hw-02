@@ -3,12 +3,16 @@
     width: 200px;
     margin: 20px auto;
     padding: 10px;
-    background-color: #3b5bdb;
+    background-color: #6076ff;
     color: #fff;
     border: none;
     border-radius: 4px;
     cursor: pointer;
 }
+ 
+ .loadMoreBtn:hover {
+     background-color: #0010c3;
+ }
 
 body {
     margin: 0;

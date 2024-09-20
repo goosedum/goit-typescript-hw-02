@@ -5,9 +5,9 @@ const Loader = () => (
     visible={true}
     height="96"
     width="96"
-    color="blue"
+    color="#6076ff"
     strokeWidth="5"
-    animationDuration="0.75"
+    animationDuration="0.65"
     ariaLabel="rotating-lines-loading"
     wrapperStyle={{}}
     wrapperClass=""
