@@ -22,9 +22,6 @@ const SearchBar: React.FC<SearchBarProps> = ({ onSubmit }) => {
   return (
     <header className={style.header}>
       <form className={style.form} onSubmit={handleSubmit}>
-        <button className={style.btnSearch} type="submit">
-          <FaSearch />
-        </button>
         <input
           className={style.input}
           type="text"
@@ -34,6 +31,9 @@ const SearchBar: React.FC<SearchBarProps> = ({ onSubmit }) => {
           value={query}
           onChange={handleChange}
         />
+        <button className={style.btnSearch} type="submit">
+          <FaSearch />
+        </button>
       </form>
       <Toaster />
     </header>
