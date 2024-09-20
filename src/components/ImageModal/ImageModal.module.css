@@ -11,7 +11,7 @@
 
 .image {
     width: auto;
-    height:calc( 100% - 60px );
+    height:calc( 100% - 100px );
     text-align: center;
 }
 
