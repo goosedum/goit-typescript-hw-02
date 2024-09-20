@@ -1,0 +1,43 @@
+.header {
+    background-color: rgb(39, 38, 38);
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: 5px;
+
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.input {
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
+.btnSearch {
+    padding: 10px 20px;
+    background-color: #6076ff;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btnSearch:hover {
+    background-color: #0010c3;
+}
