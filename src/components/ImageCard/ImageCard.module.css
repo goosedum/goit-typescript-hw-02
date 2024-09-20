@@ -12,4 +12,5 @@
 
 .img:hover {
     transform: scale(1.2);
+    border-radius: 8px;
 }
