@@ -18,6 +18,7 @@
     justify-content: center;
     max-width: 600px;
     margin: 0 auto;
+    row-gap: 20 px
 }
 
 .input {
@@ -26,7 +27,6 @@
     font-size: 16px;
     border: none;
     border-radius: 5px 5px 5px 5px;
-    margin-right: 10px;
 }
 
 .btnSearch {
